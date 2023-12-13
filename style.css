@@ -94,7 +94,7 @@ header div a {
 
 /*skills section*/
 
-.skills{
+.skills ul{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr;
@@ -419,7 +419,7 @@ footer div {
   }
 
   /* Adjust skills grid styles */
-  .skills {
+  .skills ul{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
     height: auto;
