@@ -28,29 +28,19 @@
  * }
  */
 
- html {
-  font-size: 1.0rem;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 
   background-color: #f7ead7;
 }
 
-/* styles.css */
-
-/* General styles */
-
-h1, h2, h3 {
-  color: #333;
-}
-
 a {
   text-decoration: none;
 }
 
-/* Header styles */
+/*
+ Header part styles 
+ */
 
 
 
@@ -75,7 +65,9 @@ header div a {
   padding: 10px 20px;
   border-radius: 10px;
 }
-/* Main content styles */
+/* 
+Main contents styles 
+*/
 
 .hero-text{
   display:flex;
@@ -92,7 +84,9 @@ header div a {
   margin-bottom: 20px;
 }
 
-/*skills section*/
+/*
+skills part styles
+*/
 
 .skills ul{
   display: grid;
@@ -204,7 +198,9 @@ header div a {
   font-weight: bold;
 }
 
-/*About me section*/
+/*
+About me section styles
+*/
 
 .about-me {
   display: flex;
@@ -243,7 +239,9 @@ header div a {
   width: 133px;
 }
 
-/*My work section*/
+/*
+My work part styles
+*/
 
 .my-work{
   display: grid;
@@ -302,7 +300,9 @@ header div a {
   padding: .5rem;
 }
 
-/*Contact me section*/
+/*
+Contact me part styles
+*/
 .contact-me{
   color:#000000;
   display: flex;
