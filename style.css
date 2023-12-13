@@ -404,6 +404,9 @@ footer div {
   /* Adjust hero text styles */
 
   .hero-text {
+    justify-content: center;
+  }
+  .hero-text {
     margin: 3rem 0;
   }
 
