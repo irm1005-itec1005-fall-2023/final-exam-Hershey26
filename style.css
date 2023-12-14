@@ -38,6 +38,23 @@ a {
   text-decoration: none;
 }
 
+img:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+a:hover {
+  background-color: #333; 
+  color: #fff; 
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* animate the color changes */
+}
+
+.contact-me a:hover, .about-me a:hover {
+  background-color: #333; /* change the background color on hover */
+  color: #fff; /* change the text color on hover */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* animate the color changes */
+}
+
 /*
  Header part styles 
  */
@@ -96,7 +113,10 @@ skills part styles
   height: 250px;
   margin: 7rem 0
 }
-
+.skills ul li:hover {
+  transform: scale(1.1); /* This will slightly enlarge the element on hover */
+  transition: transform 0.3s ease-in-out; /* This will animate the transformation */
+}
 .item-0 {
   display:flex;
   justify-content: flex-start;
